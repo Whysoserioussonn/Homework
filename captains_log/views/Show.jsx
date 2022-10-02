@@ -23,7 +23,7 @@ class Show extends React.Component {
                 </p>
 
                 <nav>
-                    <a href='/logs'>Back</a>
+                    <a href='/logs'>Back To Captain's Logs</a>
                 </nav>
            
             </DefaultLayout>

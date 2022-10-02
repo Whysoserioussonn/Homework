@@ -11,16 +11,16 @@ class Edit extends React.Component {
                 <h1>Edit Page</h1>
                 <form action={`/logs/${log._id}?_method=PUT`} method='POST'>
                     
-                    <label htmlFor='title'>Title:</label>
-                    <input type='text' id='title' name='title' defaultValue={ log.title }></input>
+                    <label htmlFor='title'>Title:&nbsp;&nbsp; </label>
+                    <input type='text' id='title' name='title' defaultValue={ log.title }></input><br />
 
-                    <label htmlFor='entry'>Entry:</label>
-                    <input type='textarea' id='entry' name='entry' defaultValue={ log.entry }></input>
+                    <label htmlFor='entry'>Entry:&nbsp;&nbsp;</label>
+                    <input type='textarea' id='entry' name='entry' defaultValue={ log.entry }></input><br />
 
-                    <label htmlFor='shipIsBroken'>Ship is broken:</label>
-                    <input type='checkbox' id='shipIsBroken' name='shipIsBroken' defaultChecked={ log.shipIsBroken }></input>
+                    <label htmlFor='shipIsBroken'>Ship is broken:&nbsp;&nbsp;</label>
+                    <input type='checkbox' id='shipIsBroken' name='shipIsBroken' defaultChecked={ log.shipIsBroken }></input><br /><br />
 
-                    <input type='submit' value='Edit log entry'></input>
+                    <input type='submit' value='Submit log entry'></input>
                 </form>
             </DefaultLayout>
         ) 
