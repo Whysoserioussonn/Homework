@@ -7,7 +7,7 @@ class Edit extends React.Component {
         let { log } = this.props
 
         return (
-            <DefaultLayout title='edit a log' group='logs'>
+            <DefaultLayout title='Edit Captain&apos;s log' group='logs'>
                 <h1>Edit Page</h1>
                 <form action={`/logs/${log._id}?_method=PUT`} method='POST'>
                     

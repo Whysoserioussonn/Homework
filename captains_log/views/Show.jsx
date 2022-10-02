@@ -10,7 +10,7 @@ class Show extends React.Component {
 
         return (
             <DefaultLayout title={`${title} details`} group='logs'>
-            
+           
                 <h1>Log Details</h1>
                 <p>
                     Log Title: { title }
