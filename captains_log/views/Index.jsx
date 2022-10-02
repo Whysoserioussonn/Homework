@@ -13,27 +13,28 @@ class Index extends React.Component {
         return (
             <DefaultLayout title='Captain"s Log' group='logs'>
                 <h1>Captain's Log</h1>
-                <ul id='all-index'>
+                <ul id='StarDate-Title'>
                     {logs.map((log) => {
                         return (
-                            <li key={log._id}>StarDate Title <a href={`/logs/${log._id}`}>{ log.title }</a>.
+                            <li key={log._id}>StarDate Title <a href={`/logs/${log._id}`}>{ log.title }</a>&nbsp;&nbsp;
                                 <button>
                                     <a href={`/logs/${log._id}/edit`}>Edit</a>
                                 </button>
                                 <form action={`/logs/${log._id}?_method=DELETE`} method='POST'>
                                     <input type='submit' value='Delete'></input>
                                 </form>
+                               
                             </li>
+
+                            
                         )
                     })}
                 </ul>
-                {/* <form action={`/logs/${log._id}?_method=DELETE`} method='POST'>
-                    <input type='submit' value='Delete'></input>
-                </form> */}
-
-                <nav>
-                    <a href='/logs/new'>Enter a New Captain's Log Entry</a>
+                <ul>
+                <nav id='Nav'>
+                    <a href='/logs/new'>Enter a New Captain's Log Entry&nbsp;&nbsp;(click)</a>
                 </nav>
+                </ul>
             </DefaultLayout>
         )
     }

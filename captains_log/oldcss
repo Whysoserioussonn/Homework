@@ -9,18 +9,20 @@ body {
     color: rgb(232, 17, 28);
   }
 
- #StarDate-Title {
+#all-index {
     font-size: 30px;
     color: yellow;
 }
-
+#all-index2 {
+    font-size: 30px;
+    color: yellow;
+}
 #Nav {
     background-color: yellow;
     font-style: italic;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 250px;
     font-size: 15px;
-    
 }
 
 

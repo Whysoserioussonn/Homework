@@ -1,14 +1,14 @@
 const React = require('react')
 const DefaultLayout = require('../views/layouts/DefaultLayouts')
 
-class Edit extends React.Component {
+class Edit  extends React.Component {
     render() {
       
-        let { log } = this.props
+        const { log } = this.props
 
         return (
-            <DefaultLayout title='Edit Captain&apos;s log' group='logs'>
-                <h1>Edit Page</h1>
+            <DefaultLayout title='Edit Captain"s Log' group='logs'>
+                <h1>Edit Captain's log</h1>
                 <form action={`/logs/${log._id}?_method=PUT`} method='POST'>
                     
                     <label htmlFor='title'>Title:&nbsp;&nbsp; </label>

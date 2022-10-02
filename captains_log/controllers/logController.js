@@ -69,7 +69,7 @@ const editLog = (req, res) => {
         if (err) {
             res.status(400).json(err)
         } else {
-            console.log('inside edit route')
+            console.log('Editing Log')
             res.status(200).render('Edit', { log: foundLog})
         }
     })

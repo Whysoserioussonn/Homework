@@ -10,7 +10,7 @@ class Show extends React.Component {
 
         return (
             <DefaultLayout title={`${title} details`} group='logs'>
-           
+          
                 <h1>Log Details</h1>
                 <p>
                     Log Title: { title }
@@ -19,7 +19,7 @@ class Show extends React.Component {
                     Entry: { entry }
                 </p>
                 <p>
-                    {shipIsBroken ? "The ship is broken": "The ship is not broken"}
+                    {shipIsBroken ? "Starship needs repairs": "Starship fully functional. Letsa Go!"}
                 </p>
 
                 <nav>
