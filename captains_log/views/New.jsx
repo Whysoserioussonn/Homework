@@ -6,7 +6,7 @@ class New extends React.Component {
         return (
             <DefaultLayout title='New Entry' group='logs'>
 
-                <h1>Captain's New Log Entry</h1>
+                <h1  style={{backgroundColor: "red", color: "yellow"}}>Captain's New Log Entry</h1>
                 <form action='/logs' method='POST'>
 
                     <label htmlFor='title'>Title:&nbsp;&nbsp;</label>

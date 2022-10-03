@@ -1,6 +1,6 @@
 
 body {
-    background-color: salmon;
+    
     background: url(https://media.giphy.com/media/xUA7aZGnOPdTPpbkU8/giphy.gif)no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -10,8 +10,10 @@ body {
   }
 
  #StarDate-Title {
-    font-size: 30px;
-    color: yellow;
+    font-size: 15px;
+    color: rgb(36, 19, 222);
+    background-color: rgb(54, 227, 57);
+    width: 250px;
 }
 
 #Nav {
@@ -24,10 +26,4 @@ body {
 }
 
 
-/* space ship image url
-https://i.ibb.co/SrK5Bm1/spaceshipspace.jpg
 
-captain dancing gif
-https://media.giphy.com/media/xUA7aZGnOPdTPpbkU8/giphy.gif
-
-*/
