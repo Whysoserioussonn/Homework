@@ -1,0 +1,310 @@
+html,body {
+  margin: 0px;
+  height: 100%;
+  
+}
+
+.container {
+  display: grid;
+  display: flex;
+  background: navy;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template:
+    'Header Header Header Header'
+    'Menu Reviews AvgRating SentAnalysis'
+    'Menu WebVisit WebVisit WebVisit'
+    'footer footer footer footer'
+    ;
+
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px 1fr 1fr 50px;
+
+}
+
+Header {
+  display: flex;
+}
+
+Menu {
+  display: flex;
+}
+
+Reviews {
+  display: flex;
+}
+
+AvgRating {
+  display: flex;
+}
+
+SentAnalysis {
+    grid-area: analysis;
+}
+
+WebVisit {
+  display: flex;
+}
+
+
+.sidebar {
+  grid-area: Menu;
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Chakra Petch', sans-serif;
+  color: white
+}
+
+.sidebar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  background: yellow;
+}
+
+.sidebar {
+  z-index: 1000;
+  position: relative;
+}
+
+.sidebar::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 130%;
+  background: linear-gradient(#FF0000, #7014f2);
+  animation: animate 3s linear infinite;
+}
+
+.sidebar::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  background: blue;
+  border-radius: 10px;
+}
+
+.sidebarText {
+  z-index: 1;
+}
+
+
+
+.reviews {
+  grid-area: Reviews;
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Chakra Petch', sans-serif;
+  color: white
+}
+
+.reviews {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 10px;
+  overflow: hidden;
+  background: yellow;
+}
+
+.reviews {
+  z-index: 1000;
+  position: relative;
+}
+
+.reviews::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 130%;
+  background: linear-gradient(#FF0000, #7014f2);
+  animation: animate 3s linear infinite;
+}
+
+.reviews::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  background: blue;
+  border-radius: 10px;
+}
+
+.reviewsText {
+  z-index: 1;
+}
+
+.avgRating {
+  grid-area: AvgRating;
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Chakra Petch', sans-serif;
+  color: white;
+}
+
+.avgRating {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 10px;
+  overflow: hidden;
+  background: yellow;
+}
+
+.avgRating {
+  z-index: 1000;
+  position: relative;
+}
+
+.avgRating::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 130%;
+  background: linear-gradient(#FF0000, #7014f2);
+  animation: animate 3s linear infinite;
+}
+
+.avgRating::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  background: blue;
+  border-radius: 10px;
+}
+
+.avgRatingText {
+  z-index: 1;
+}
+
+
+.sentAnalysis {
+  grid-area: SentAnalysis;
+  /* border: solid red 2px; */
+  background-color: blue;
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Chakra Petch', sans-serif;
+  color: white;
+}
+
+.sentAnalysis {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 10px;
+  overflow: hidden;
+  background: yellow;
+}
+
+.sentAnalysis {
+  z-index: 1000;
+  position: relative;
+}
+
+.sentAnalysis::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 130%;
+  background: linear-gradient(#FF0000, #7014f2);
+  animation: animate 3s linear infinite;
+}
+
+.sentAnalysis::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  background: blue;
+  border-radius: 10px;
+}
+
+.sentiText {
+  z-index: 1;
+}
+
+
+.webVisitors {
+  grid-area: WebVisit;
+  /* border: solid red 2px; */
+  background-color: blue;
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Chakra Petch', sans-serif;
+  color: white
+}
+
+.webVisitors {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 10px;
+  overflow: hidden;
+  background: yellow;
+}
+
+.webVisitors {
+  z-index: 1000;
+  position: relative;
+}
+
+.webVisitors::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 400%;
+  background: linear-gradient(#FF0000, #7014f2);
+  animation: animate 4s linear infinite;
+}
+
+.webVisitors::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  background: blue;
+  border-radius: 10px;
+}
+
+.webText {
+  z-index: 1;
+}
+
+
+
+/*animations*/
+@keyframes animate {
+  0%
+  {
+    transform: rotate(0deg);
+    
+  }
+   25%
+  {
+    transform: rotate(90deg);
+    
+  }
+   50%
+  {
+    transform: rotate(180deg);
+    
+  }
+   75%
+  {
+    transform: rotate(270deg);
+    
+  }
+  100%
+  {
+    transform: rotate(360deg);
+  }
+}
