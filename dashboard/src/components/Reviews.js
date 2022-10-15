@@ -2,8 +2,8 @@ function Reviews() {
   return (
     <div className="reviews">
      <div className="reviewsText">
-      <h1>Reviews</h1>
-      <h2>1,281</h2>
+      <h3>Reviews</h3>
+      <p>1,281</p>
      
       </div>
     </div>

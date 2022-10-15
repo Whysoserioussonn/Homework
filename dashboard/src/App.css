@@ -205,7 +205,12 @@ WebVisit {
   overflow: hidden;
   background: yellow;
 }
-
+.sentiData{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
 .sentAnalysis {
   z-index: 1000;
   position: relative;
