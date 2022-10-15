@@ -43,7 +43,7 @@ AvgRating {
 }
 
 SentAnalysis {
-    grid-area: analysis;
+    grid-area: SentAnalysis;
 }
 
 WebVisit {
@@ -210,7 +210,7 @@ WebVisit {
   flex-direction: column;
   align-items: center;
   }
-  
+
 .sentAnalysis {
   z-index: 1000;
   position: relative;
