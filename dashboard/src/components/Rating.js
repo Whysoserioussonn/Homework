@@ -4,6 +4,7 @@ function Rating() {
       <div className="avgRatingText">
       <h3>Average Rating</h3>
       <p>4.6</p>
+      
       </div>
     </div>
 )

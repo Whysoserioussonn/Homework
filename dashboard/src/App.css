@@ -5,8 +5,8 @@ html,body {
 }
 
 .container {
-  display: grid;
-  display: flex;
+ 
+  
   background: navy;
   height: 100vh;
 }
@@ -108,8 +108,8 @@ WebVisit {
 .reviews {
   position: relative;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   overflow: hidden;
   background: yellow;
@@ -139,6 +139,7 @@ WebVisit {
 
 .reviewsText {
   z-index: 1;
+  align-self: flex-start;
 }
 
 .avgRating {
@@ -152,8 +153,8 @@ WebVisit {
 .avgRating {
   position: relative;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   overflow: hidden;
   background: yellow;
@@ -183,6 +184,7 @@ WebVisit {
 
 .avgRatingText {
   z-index: 1;
+  align-self: flex-start;
 }
 
 
@@ -199,21 +201,19 @@ WebVisit {
 .sentAnalysis {
   position: relative;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   overflow: hidden;
   background: yellow;
+  
 }
-.sentiData{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  }
+
 
 .sentAnalysis {
   z-index: 1000;
   position: relative;
+  align-self: 
 }
 
 .sentAnalysis::before {
@@ -233,8 +233,10 @@ WebVisit {
   border-radius: 10px;
 }
 
-.sentiText {
+#sentiText {
   z-index: 1;
+  align-self: flex-start;
+    
 }
 
 
@@ -251,8 +253,8 @@ WebVisit {
 .webVisitors {
   position: relative;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   overflow: hidden;
   background: yellow;
@@ -282,6 +284,9 @@ WebVisit {
 
 .webText {
   z-index: 1;
+  align-self: flex-start;
+ 
+ 
 }
 
 
