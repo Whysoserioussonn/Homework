@@ -9,14 +9,16 @@ body {
 }
 .header{
   font-size: 55px;
+  
  
 }
 h1 {
   font-size: 3.5vw;
-      font-family: impact;
+  font-family: "DINPro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
       font-size: 40px;
       color: #ddd;
-      background: linear-gradient(to top left, #000088, #0000ff);
+      
      
 }
 h3{
@@ -182,3 +184,28 @@ h3{
   text-align: center;
 }
 
+
+.glow {
+  font-size: 80px;
+  color: #f5e7ce;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+  margin-bottom:0px;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #cf8804, 0 0 40px #cf8804, 0 0 50px #cf8804, 0 0 60px #cf8804, 0 0 70px #cf8804;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fcbe49, 0 0 40px #fcbe49, 0 0 50px #fcbe49, 0 0 60px #fcbe49, 0 0 70px #fcbe49, 0 0 80px #fcbe49;
+  }
+}
+.glow2 {
+  font-size: 24px;
+  margin:0px;
+  color: #f5e7ce;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
